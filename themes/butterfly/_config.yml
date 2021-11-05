@@ -83,31 +83,30 @@ avatar:
   effect: false
 
 # The banner image of home page
-index_img: /img/work.jpg
+index_img: /img/banner_01.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/work.jpg
+default_top_img: /img/banner_01.png
 
 # The banner image of archive page
-archive_img: /img/work.jpg
+archive_img: /img/banner_01.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: /img/work.jpg
-
+tag_img: /img/banner_01.png
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: /img/work.jpg
+tag_per_img: /img/banner_01.png
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: /img/work.jpg
+category_img: /img/banner_01.png
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: /img/work.jpg
+category_per_img: /img/banner_01.png
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -118,8 +117,8 @@ cover:
   # left/right/both
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover:
-    /img/work.jpg
+  default_cover: /img/banner_01.png
+
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -368,7 +367,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2017-2020
+    since: 2017
   custom_text: Thank you so much for seeing here
   copyright: false # Copyright of theme and framework
   ICP: # Chinese ICP License
@@ -444,7 +443,7 @@ yandex_site_verification:
 
 # theme_color:
 #   enable: true
-#   main: "#49B1F5"
+#   main: "#4f6e82"
 #   paginator: "#00c4b6"
 #   button_hover: "#FF7242"
 #   text_selection: "#00c4b6"
@@ -454,8 +453,8 @@ yandex_site_verification:
 #   code_foreground: "#F47466"
 #   code_background: "rgba(27, 31, 35, .05)"
 #   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+#   blockquote_padding_color: "#4f6e82"
+#   blockquote_background_color: "#4f6e82"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -770,7 +769,7 @@ aplayerInject:
 snackbar:
   enable: false
   position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
+  bg_light: '#4f6e82' # The background color of Toast Notification in light mode
   bg_dark: '#121212' # The background color of Toast Notification in dark mode
 
 # Baidu Push (百度推送)

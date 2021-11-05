@@ -104,5 +104,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/myoldmoons/myoldmoons.GitHub.io.git
+  repo: git@github.com:myoldmoons/myoldmoons.GitHub.io.git
   branch: gh-pages
